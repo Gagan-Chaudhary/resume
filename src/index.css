@@ -1,0 +1,133 @@
+/* Base document settings matching LaTeX article class */
+/* import '@fortawesome/fontawesome-free/css/all.min.css'; */
+body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 8.27in; /* A4 width */
+  background-color: white;
+  font-family: 'Computer Modern Serif', 'Times New Roman', Times, serif;
+  font-size: 10pt;
+  line-height: 1.1; /* matches \baselinestretch{1.1} */
+  color: #000000;
+}
+
+.resume-container {
+  padding: 0.6in 0.7in; /* matches geometry settings */
+  margin: 0 auto;
+}
+
+/* Header styling matching LaTeX center environment */
+.header {
+  text-align: center;
+  margin-bottom: 12pt;
+}
+
+.header h1 {
+  font-size: 17.28pt; /* \Large in 10pt article class */
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0 6pt;
+}
+
+.contact-links {
+  font-size: 8pt; /* \footnotesize */
+  display: flex;
+  justify-content: center;
+  gap: 12pt;
+  margin-bottom: 12pt;
+}
+
+/* Section titles matching \titleformat settings */
+.section-title {
+  font-size: 12pt; /* \large */
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 0.4pt solid black; /* \titlerule */
+  margin: 4pt 0;
+  padding-bottom: 4pt;
+  letter-spacing: 0.5pt;
+}
+
+/* Lists matching itemize environment settings */
+.content-list {
+  margin: 2pt 0; /* matches topsep */
+  padding-left: 0.3in; /* matches leftmargin */
+  list-style-type: disc;
+}
+
+.content-list li {
+  margin-bottom: 1pt; /* matches itemsep */
+  padding-left: 0;
+  line-height: 1.2;
+}
+
+/* Job entries matching \jobentry command */
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.job-title {
+  font-weight: 700;
+}
+
+.company-location {
+  font-style: italic;
+}
+
+.date {
+  font-style: italic;
+}
+
+/* Project entries matching \projectentry command */
+.project-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1mm 0; /* matches \vspace{1mm} */
+}
+
+.project-title {
+  font-weight: 700;
+}
+
+.project-tech {
+  color: #000000;
+  margin: 0 8pt;
+}
+
+.github-link {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Summary section spacing */
+.summary {
+  margin-left: -5mm; /* matches \hspace{-5mm} */
+  margin-bottom: 12pt;
+}
+
+/* Education section specific */
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -4mm; /* matches \vspace{-4mm} */
+}
+
+/* Print settings */
+@media print {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .resume-container {
+    padding: 0.6in 0.7in;
+  }
+  
+  @page {
+    size: A4;
+    margin: 0;
+  }
+}

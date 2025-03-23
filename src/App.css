@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #000;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+/* Paper effect */
+.resume-container {
+  max-width: 830px;
+  margin: 0 auto;
+  padding: 40px 60px;
+  background-color: white;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 2px;
+  min-height: 1120px; /* A4 proportions */
+}
+
+/* Header styles */
+.resume-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.resume-header h1 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+.contact-links {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-links a {
+  color: #000;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  margin: 0 4px;
+}
+
+.contact-links .separator {
+  margin: 0 2px;
+}
+
+.contact-links a:hover {
+  text-decoration: underline;
+}
+
+.contact-links a i {
+  margin-right: 3px;
+}
+
+/* Section styles */
+.resume-section {
+  margin-bottom: 16px;
+}
+
+.resume-section h2 {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #000;
+  letter-spacing: 0.5px;
+}
+
+.resume-section p {
+  margin-bottom: 8px;
+  text-align: justify;
+  padding-left: 5px;
+}
+
+.resume-section ul {
+  list-style-type: none;
+  padding-left: 16px;
+  margin-bottom: 8px;
+}
+
+.resume-section li {
+  margin-bottom: 3px;
+  position: relative;
+  text-align: justify;
+}
+
+.resume-section li:before {
+  content: "•";
+  position: absolute;
+  left: -14px;
+}
+
+/* Job entry styles */
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+
+.job-title-company {
+  display: flex;
+  justify-content: space-between;
+  width: 48%;
+}
+
+.job-location-date {
+  display: flex;
+  justify-content: space-between;
+  width: 48%;
+  text-align: right;
+}
+
+.job-title-company i,
+.job-location-date i {
+  font-style: italic;
+}
+
+.job-entry {
+  margin-bottom: 12px;
+}
+
+.job-entry ul {
+  margin-top: 4px;
+}
+
+/* Project styles */
+.project-entry {
+  margin-bottom: 12px;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+
+.project-header a {
+  margin-left: auto;
+  color: #000;
+  text-decoration: none;
+}
+
+.project-header a:hover {
+  text-decoration: underline;
+}
+
+.project-title-tech {
+  display: flex;
+  align-items: center;
+}
+
+.project-title-tech .separator {
+  margin: 0 5px;
+}
+
+/* Education styles */
+.education-entry {
+  margin-top: 6px;
+}
+
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+
+.education-institution {
+  margin-bottom: 4px;
+}
+
+/* Print styles */
+@media print {
+  body {
+    background: none;
+    padding: 0;
+  }
+
+  .resume-container {
+    box-shadow: none;
+    padding: 20px 40px;
+  }
+}
+
+/* Summary section specific */
+.summary-text {
+  padding-left: 0;
+}
