@@ -1,5 +1,16 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { 
+  faGithub, 
+  faLinkedin 
+} from '@fortawesome/free-brands-svg-icons';
+import { 
+  faCode, 
+  faGlobe, 
+  faEnvelope, 
+  faMobile 
+} from '@fortawesome/free-solid-svg-icons';
 import "./App.css";
 
 function App() {
@@ -9,40 +20,28 @@ function App() {
         <header className="resume-header">
           <h1>GAGAN CHAUDHARY</h1>
           <div className="contact-links">
-            <a
-              href="https://github.com/Gagan-Chaudhary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fas fa-github"></i> Gagan-Chaudhary
+            <a href="https://github.com/Gagan-Chaudhary" target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faGithub} /> Gagan-Chaudhary
             </a>
             <span className="separator">|</span>
-            <a
-              href="https://www.linkedin.com/in/thegaganchaudhary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fas fa-linkedin"></i> thegaganchaudhary
+            <a href="https://www.linkedin.com/in/thegaganchaudhary" target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faLinkedin} /> thegaganchaudhary
             </a>
             <span className="separator">|</span>
-            <a
-              href="https://leetcode.com/Gagan-Chaudhary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fas fa-code"></i> LeetCode
+            <a href="https://leetcode.com/Gagan-Chaudhary" target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faCode} /> LeetCode
             </a>
             <span className="separator">|</span>
             <a href="https://gaganchaudhary.com" target="_blank" rel="noreferrer">
-              <i className="fas fa-globe"></i> Portfolio
+              <FontAwesomeIcon icon={faGlobe} /> Portfolio
             </a>
             <span className="separator">|</span>
             <a href="mailto:gaganveermaan@gmail.com">
-              <i className="fas fa-envelope"></i> gaganveermaan@gmail.com
+              <FontAwesomeIcon icon={faEnvelope} /> gaganveermaan@gmail.com
             </a>
             <span className="separator">|</span>
             <a href="tel:+918503076991">
-              <i className="fas fa-mobile-alt"></i> +918503076991
+              <FontAwesomeIcon icon={faMobile} /> +918503076991
             </a>
           </div>
         </header>
