@@ -9,7 +9,8 @@
 /coverage
 
 # production
-/build
+# Don't ignore the build directory for gh-pages
+!/build
 
 # misc
 .DS_Store

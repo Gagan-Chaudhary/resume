@@ -1,0 +1,143 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+
+% Page layout with tighter spacing
+\geometry{left=0.7in, right=0.7in, top=0.6in, bottom=0.6in}
+\pagestyle{empty}
+\setlength{\parskip}{0pt}
+\renewcommand{\baselinestretch}{1.1}
+
+% Hyperlink setup
+\hypersetup{
+    colorlinks=true,
+    urlcolor=black,
+    linkcolor=black,
+    citecolor=black,
+    pdftitle={Gagan Chaudhary - Resume},
+    pdfauthor={Gagan Chaudhary},
+    pdfsubject={Software Development Resume},
+    pdfkeywords={software engineer, system design, distributed systems, cloud, full-stack, spring boot}
+}
+
+\urlstyle{same}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\scshape}{}{0pt}{}[\titlerule]
+\titlespacing{\section}{0pt}{4pt}{4pt}
+
+% Tight list formatting
+\setlist[itemize]{
+    leftmargin=0.3in, 
+    itemsep=1pt, 
+    parsep=0pt, 
+    topsep=2pt, 
+    partopsep=0pt
+}
+
+% Job entry command
+\newcommand{\jobentry}[4]{
+    \noindent\textbf{#1} \hfill \textit{#2} \\
+    \textit{#3} \hfill #4 \\
+    \vspace{-0.05in}
+}
+
+% Project entry command
+\newcommand{\projectentry}[3]{
+  \noindent
+  \textbf{#1} \, | \, #2 \hfill \href{#3}{GitHub Link}
+}
+
+\begin{document}
+
+% Header
+\begin{center}
+    \textbf{\Large{GAGAN CHAUDHARY}} \\
+    \footnotesize 
+    \href{https://github.com/Gagan-Chaudhary}{\raisebox{-0.05\height}\faGithub\ Gagan-Chaudhary}$\mid$
+    \href{https://www.linkedin.com/in/thegaganchaudhary}{\raisebox{0.05\height}\faLinkedin\ thegaganchaudhary}$\mid$
+    \href{https://leetcode.com/Gagan-Chaudhary}{\raisebox{-0.05\height}\faCode\ LeetCode}$\mid$
+    \href{https://gaganchaudhary.com}{\raisebox{-0.05\height}\faGlobe\ Portfolio}$\mid$
+    \href{mailto:gaganveermaan@gmail.com}{\raisebox{-0.05\height}\faEnvelope\ gaganveermaan@gmail.com}$\mid$
+    \href{tel:+918503076991}{\raisebox{-0.05\height}\faMobile\ +918503076991} \\
+    \normalsize
+\end{center}
+
+% Summary (expanded slightly)
+\section*{Summary}
+\hspace{-5mm}Dynamic Software Engineer with 2 years of experience in full-stack development, system design, and secure enterprise solutions. Delivered scalable authentication systems and optimized workflows at ICICI Bank. Proficient in Java, Spring Boot, React.js, and cloud technologies, with a passion for building high-performance applications using Agile and SOA methodologies.
+
+% Technical Skills (updated with your list + Spring Boot)
+\section*{Technical Skills}
+\begin{itemize}
+    \item \textbf{Languages \& Frameworks:} JavaScript, C++, SQL, Java, Spring Boot
+    \item \textbf{Frontend:} React.js, HTML5, CSS3, Bootstrap, Responsive Design
+    \item \textbf{Backend \& Databases:} Node.js, Express.js, RESTful APIs, MySQL, Oracle, MongoDB
+    \item \textbf{Cloud \& DevOps:} AWS (EC2, S3), Docker, Git, Firebase, Oracle WebLogic Server, Oracle Service Bus
+    \item \textbf{Security:} SAML, MFA, OAuth, Access Management
+    \item \textbf{Methodologies:} Agile, SDLC, Service-Oriented Architecture (SOA), System Design
+\end{itemize}
+
+% Professional Experience (expanded with more detail)
+\section*{Professional Experience}
+\jobentry{Software Engineer}{ICICI Bank}{Hyderabad, India}{Nov 2022 - Present}
+\vspace{-2.5mm}
+\begin{itemize}
+    \item Architected SAML-based SSO and MFA systems with Java and Oracle Access Manager, reducing unauthorized access by 95\%
+    \item Engineered RESTful APIs for user management automation, slashing administrative overhead by 80\% using Spring Boot
+    \item Optimized Oracle WebLogic Server deployment pipeline with CI/CD, cutting release cycles by 40\%
+    \item Developed secure financial reporting tools with Oracle BI Publisher and SQL, processing 10K+ daily transactions
+\end{itemize}
+\vspace{2mm}
+\jobentry{Associate Consultant}{Abjayon}{Ahmedabad, India}{Jun 2022 - Sep 2022}
+\vspace{-2.5mm}
+\begin{itemize}
+    \item Designed SOA-based integrations using Oracle Service Bus, enabling 1M+ daily transactions with zero downtime
+    \item Built reusable middleware components with Java, improving system interoperability by 30\%
+    \item Delivered technical training on SOA and system design principles to 20+ developers
+\end{itemize}
+
+% Projects (new, market-driven projects added)
+\section*{Projects}
+\vspace{1mm}
+\projectentry{Distributed Rate Limiter}{Java, Spring Boot, Redis}{https://github.com/Gagan-Chaudhary/RateLimiter}
+\begin{itemize}
+    \item Developed a distributed rate-limiting system for APIs using Spring Boot and Redis, supporting 50K+ requests/sec
+    \item Implemented circuit breaker pattern, reducing system failures by 40\% in high-traffic scenarios
+\end{itemize}
+\vspace{1mm}
+\projectentry{E-Commerce Dashboard}{React.js, Node.js, AWS S3}{https://github.com/Gagan-Chaudhary/EcommDashboard}
+\begin{itemize}
+    \item Built a responsive dashboard with React.js and RESTful APIs, integrating AWS S3 for scalable image storage
+    \item Optimized frontend with Bootstrap and CSS3, achieving 20\% faster load times
+\end{itemize}
+\vspace{1mm}
+\projectentry{Load-Balanced Chat System}{C++, Node.js, Docker}{https://github.com/Gagan-Chaudhary/ChatSystem}
+\begin{itemize}
+    \item Engineered a real-time chat app with C++ backend and Node.js WebSocket, load-balanced with Docker
+    \item Secured with OAuth and deployed on AWS EC2, handling 10K+ concurrent users
+\end{itemize}
+\vspace{1mm}
+\projectentry{Financial Transaction Processor}{Java, Oracle, Spring Boot}{https://github.com/Gagan-Chaudhary/TransactionProcessor}
+\begin{itemize}
+    \item Created a high-throughput transaction system with Spring Boot and Oracle, processing 1M+ records/day
+    \item Integrated MFA and SAML for secure access, achieving 99.99\% uptime
+\end{itemize}
+
+% Education (expanded slightly)
+\section*{Education}
+\noindent\textbf{B.Tech in Information Technology} \hfill 2018-2022 \\
+Indian Institute of Information Technology, Vadodara \\
+\vspace{-4mm}
+\begin{itemize}
+    \item CPI: 7.02/10 | Coursework: Data Structures, Algorithms, System Design, Database Management
+    \item Achievements: Google Cloud Program Participant, Hacktoberfest 2020 Contributor, Dean’s List 2020
+\end{itemize}
+
+\end{document}
