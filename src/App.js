@@ -1,16 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { 
-  faGithub, 
-  faLinkedin 
-} from '@fortawesome/free-brands-svg-icons';
-import { 
-  faCode, 
-  faGlobe, 
-  faEnvelope, 
-  faMobile 
-} from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import {
+  faCode,
+  faGlobe,
+  faEnvelope,
+  faMobile,
+} from "@fortawesome/free-solid-svg-icons";
 import "./App.css";
 
 function App() {
@@ -20,19 +17,35 @@ function App() {
         <header className="resume-header">
           <h1>GAGAN CHAUDHARY</h1>
           <div className="contact-links">
-            <a href="https://github.com/Gagan-Chaudhary" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/Gagan-Chaudhary"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon icon={faGithub} /> Gagan-Chaudhary
             </a>
             <span className="separator">|</span>
-            <a href="https://www.linkedin.com/in/thegaganchaudhary" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.linkedin.com/in/thegaganchaudhary"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon icon={faLinkedin} /> thegaganchaudhary
             </a>
             <span className="separator">|</span>
-            <a href="https://leetcode.com/Gagan-Chaudhary" target="_blank" rel="noreferrer">
+            <a
+              href="https://leetcode.com/Gagan-Chaudhary"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon icon={faCode} /> LeetCode
             </a>
             <span className="separator">|</span>
-            <a href="https://gaganchaudhary.com" target="_blank" rel="noreferrer">
+            <a
+              href="https://gaganchaudhary.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon icon={faGlobe} /> Portfolio
             </a>
             <span className="separator">|</span>
@@ -50,11 +63,11 @@ function App() {
           <h2>Summary</h2>
           <p className="summary-text">
             Dynamic Software Engineer with 2 years of experience in full-stack
-            development, system design, and secure enterprise solutions. Delivered
-            scalable authentication systems and optimized workflows at ICICI Bank.
-            Proficient in Java, Spring Boot, React.js, and cloud technologies,
-            with a passion for building high-performance applications using Agile
-            and SOA methodologies.
+            development, system design, and secure enterprise solutions.
+            Delivered scalable authentication systems and optimized workflows at
+            ICICI Bank. Proficient in Java, Spring Boot, React.js, and cloud
+            technologies, with a passion for building high-performance
+            applications using Agile and SOA methodologies.
           </p>
         </section>
 
@@ -62,8 +75,8 @@ function App() {
           <h2>Technical Skills</h2>
           <ul>
             <li>
-              <strong>Languages & Frameworks:</strong> JavaScript, C++, SQL, Java,
-              Spring Boot
+              <strong>Languages & Frameworks:</strong> JavaScript, C++, SQL,
+              Java, Spring Boot
             </li>
             <li>
               <strong>Frontend:</strong> React.js, HTML5, CSS3, Bootstrap,
@@ -91,12 +104,12 @@ function App() {
           <h2>Professional Experience</h2>
           <div className="job-entry">
             <div className="job-header">
-              <div className="job-title-company">
+              <div className="job-left">
                 <strong>Software Engineer</strong>
-                <i>ICICI Bank</i>
+                <i className="location">Hyderabad, India</i>
               </div>
-              <div className="job-location-date">
-                <i>Hyderabad, India</i>
+              <div className="job-right">
+                <i>ICICI Bank</i>
                 <span>Nov 2022 - Present</span>
               </div>
             </div>
@@ -122,19 +135,19 @@ function App() {
 
           <div className="job-entry">
             <div className="job-header">
-              <div className="job-title-company">
+              <div className="job-left">
                 <strong>Associate Consultant</strong>
-                <i>Abjayon</i>
+                <i className="location">Ahmedabad, India</i>
               </div>
-              <div className="job-location-date">
-                <i>Ahmedabad, India</i>
+              <div className="job-right">
+                <i>Abjayon</i>
                 <span>Jun 2022 - Sep 2022</span>
               </div>
             </div>
             <ul>
               <li>
-                Designed SOA-based integrations using Oracle Service Bus, enabling
-                1M+ daily transactions with zero downtime
+                Designed SOA-based integrations using Oracle Service Bus,
+                enabling 1M+ daily transactions with zero downtime
               </li>
               <li>
                 Built reusable middleware components with Java, improving system
@@ -150,25 +163,26 @@ function App() {
 
         <section className="resume-section">
           <h2>Projects</h2>
-          <div className="project-entry">
-            <div className="project-header">
-              <div className="project-title-tech">
+          <div className="job-entry">
+            <div className="job-header">
+              <div className="job-left">
                 <strong>Distributed Rate Limiter</strong>
-                <span className="separator">|</span>
-                Java, Spring Boot, Redis
+                <i className="location">Java, Spring Boot, Redis</i>
               </div>
-              <a
-                href="https://github.com/Gagan-Chaudhary/RateLimiter"
-                target="_blank"
-                rel="noreferrer"
-              >
-                GitHub Link
-              </a>
+              <div className="job-right">
+                <a
+                  href="https://github.com/Gagan-Chaudhary/RateLimiter"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GitHub Link
+                </a>
+              </div>
             </div>
             <ul>
               <li>
-                Developed a distributed rate-limiting system for APIs using Spring
-                Boot and Redis, supporting 50K+ requests/sec
+                Developed a distributed rate-limiting system for APIs using
+                Spring Boot and Redis, supporting 50K+ requests/sec
               </li>
               <li>
                 Implemented circuit breaker pattern, reducing system failures by
@@ -177,20 +191,21 @@ function App() {
             </ul>
           </div>
 
-          <div className="project-entry">
-            <div className="project-header">
-              <div className="project-title-tech">
+          <div className="job-entry">
+            <div className="job-header">
+              <div className="job-left">
                 <strong>E-Commerce Dashboard</strong>
-                <span className="separator">|</span>
-                React.js, Node.js, AWS S3
+                <i className="location">React.js, Node.js, AWS S3</i>
               </div>
-              <a
-                href="https://github.com/Gagan-Chaudhary/EcommDashboard"
-                target="_blank"
-                rel="noreferrer"
-              >
-                GitHub Link
-              </a>
+              <div className="job-right">
+                <a
+                  href="https://github.com/Gagan-Chaudhary/EcommDashboard"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GitHub Link
+                </a>
+              </div>
             </div>
             <ul>
               <li>
@@ -204,20 +219,21 @@ function App() {
             </ul>
           </div>
 
-          <div className="project-entry">
-            <div className="project-header">
-              <div className="project-title-tech">
+          <div className="job-entry">
+            <div className="job-header">
+              <div className="job-left">
                 <strong>Load-Balanced Chat System</strong>
-                <span className="separator">|</span>
-                C++, Node.js, Docker
+                <i className="location">C++, Node.js, Docker</i>
               </div>
-              <a
-                href="https://github.com/Gagan-Chaudhary/ChatSystem"
-                target="_blank"
-                rel="noreferrer"
-              >
-                GitHub Link
-              </a>
+              <div className="job-right">
+                <a
+                  href="https://github.com/Gagan-Chaudhary/ChatSystem"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GitHub Link
+                </a>
+              </div>
             </div>
             <ul>
               <li>
@@ -231,28 +247,30 @@ function App() {
             </ul>
           </div>
 
-          <div className="project-entry">
-            <div className="project-header">
-              <div className="project-title-tech">
+          <div className="job-entry">
+            <div className="job-header">
+              <div className="job-left">
                 <strong>Financial Transaction Processor</strong>
-                <span className="separator">|</span>
-                Java, Oracle, Spring Boot
+                <i className="location">Java, Oracle, Spring Boot</i>
               </div>
-              <a
-                href="https://github.com/Gagan-Chaudhary/TransactionProcessor"
-                target="_blank"
-                rel="noreferrer"
-              >
-                GitHub Link
-              </a>
+              <div className="job-right">
+                <a
+                  href="https://github.com/Gagan-Chaudhary/TransactionProcessor"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GitHub Link
+                </a>
+              </div>
             </div>
             <ul>
               <li>
-                Created a high-throughput transaction system with Spring Boot and
-                Oracle, processing 1M+ records/day
+                Created a high-throughput transaction system with Spring Boot
+                and Oracle, processing 1M+ records/day
               </li>
               <li>
-                Integrated MFA and SAML for secure access, achieving 99.99% uptime
+                Integrated MFA and SAML for secure access, achieving 99.99%
+                uptime
               </li>
             </ul>
           </div>
@@ -274,8 +292,8 @@ function App() {
                 Design, Database Management
               </li>
               <li>
-                Achievements: Google Cloud Program Participant, Hacktoberfest 2020
-                Contributor, Dean's List 2020
+                Achievements: Google Cloud Program Participant, Hacktoberfest
+                2020 Contributor, Dean's List 2020
               </li>
             </ul>
           </div>

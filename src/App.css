@@ -42,22 +42,26 @@ body {
 }
 
 .contact-links {
-  font-size: 12px;
+  font-size: 11px;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  gap: 4px; /* reduced from 8px */
   flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 8px; /* reduced from 10px */
 }
 
 .contact-links a {
-  color: #000;
-  text-decoration: none;
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  margin: 0 4px;
+  gap: 2px; /* reduced from 5px */
+  text-decoration: none;
+  color: inherit;
 }
 
-.contact-links .separator {
-  margin: 0 2px;
+.separator {
+  color: #666;
+  margin: 0 0.01px; /* reduced from 2px */
 }
 
 .contact-links a:hover {
@@ -111,24 +115,55 @@ body {
 .job-header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 3px;
+  margin-bottom: 8px;
+}
+
+.job-left,
+.job-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-left strong {
+  margin-bottom: 2px;
+}
+
+.job-right {
+  text-align: right;
+}
+
+.job-right i {
+  margin-bottom: 2px;
+  font-style: italic;
+}
+
+.location {
+  font-style: italic;
+  font-size: 0.95em;
 }
 
 .job-title-company {
   display: flex;
   justify-content: space-between;
-  width: 48%;
+  width: 100%;
+}
+
+.job-title-company i {
+  font-style: italic;
+  margin-left: auto;
 }
 
 .job-location-date {
   display: flex;
-  justify-content: space-between;
-  width: 48%;
+  flex-direction: column;
+  align-items: flex-end;
   text-align: right;
+  min-width: 150px;
 }
 
-.job-title-company i,
-.job-location-date i {
+.job-location-date i,
+.job-location-date span {
+  display: block;
   font-style: italic;
 }
 
@@ -148,26 +183,45 @@ body {
 .project-header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 3px;
+  margin-bottom: 8px;
 }
 
-.project-header a {
-  margin-left: auto;
-  color: #000;
+.project-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-info strong {
+  margin-bottom: 2px;
+}
+
+.tech-stack {
+  font-style: italic;
+  font-size: 0.95em;
+}
+
+.project-link {
+  text-align: right;
+}
+
+.project-link a {
   text-decoration: none;
+  color: inherit;
 }
 
-.project-header a:hover {
+.project-link a:hover {
   text-decoration: underline;
 }
 
-.project-title-tech {
-  display: flex;
-  align-items: center;
+.project-entry ul {
+  margin-top: 4px;
+  padding-left: 16px;
 }
 
-.project-title-tech .separator {
-  margin: 0 5px;
+.project-entry li {
+  margin-bottom: 3px;
+  position: relative;
+  text-align: justify;
 }
 
 /* Education styles */
