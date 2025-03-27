@@ -166,6 +166,33 @@ function App() {
           <div className="job-entry">
             <div className="job-header">
               <div className="job-left">
+                <strong>Generative AI Chatbot</strong>
+                <i className="location">React.js, Spring Boot, OpenAI API</i>
+              </div>
+              <div className="job-right">
+                <a
+                  href="https://github.com/Gagan-Chaudhary/ai-chatbot"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GitHub Link
+                </a>
+              </div>
+            </div>
+            <ul>
+              <li>
+                Developed a full-stack web application integrating OpenAI's API for conversational interfaces, showcasing generative AI capabilities
+              </li>
+              <li>
+                Implemented secure API key management and optimized response times with caching, handling 5K+ queries/day
+              </li>
+            </ul>
+          </div>
+
+          {/* Existing projects continue below */}
+          <div className="job-entry">
+            <div className="job-header">
+              <div className="job-left">
                 <strong>Distributed Rate Limiter</strong>
                 <i className="location">Java, Spring Boot, Redis</i>
               </div>
@@ -293,7 +320,7 @@ function App() {
               </li>
               <li>
                 Achievements: Google Cloud Program Participant, Hacktoberfest
-                2020 Contributor, Dean's List 2020
+                2020 Contributor
               </li>
             </ul>
           </div>
