@@ -3,6 +3,7 @@
 This README provides a detailed explanation of my resume, optimized for Software Development Engineer (SDE) roles at FAANG/MAANG companies, top startups, and high-paying positions. It covers each section, with a special focus on projects, including their use cases, tech stacks, and implementation details.
 
 ## Contact Information
+
 - **Name**: Gagan Chaudhary
 - **GitHub**: [Gagan-Chaudhary](https://github.com/Gagan-Chaudhary)
 - **LinkedIn**: [thegaganchaudhary](https://www.linkedin.com/in/thegaganchaudhary)
@@ -14,10 +15,12 @@ This README provides a detailed explanation of my resume, optimized for Software
 This section ensures recruiters can easily contact me for opportunities.
 
 ## Summary
+
 - **Description**: "Software Engineer with 2 years of experience in full-stack development and system design. Skilled in Java, Spring Boot, React.js, and cloud technologies. Passionate about problem-solving, data structures, algorithms, and generative AI."
 - **Purpose**: Provides a concise overview of my experience, skills, and interests, making it easy for recruiters to grasp my profile quickly. Highlights key areas like problem-solving and generative AI, aligning with FAANG/MAANG expectations.
 
 ## Technical Skills
+
 - **Languages & Frameworks**: JavaScript, C++, SQL, Java, Spring Boot
 - **Frontend**: React.js, HTML5, CSS3, Bootstrap, Responsive Design
 - **Backend & Databases**: Node.js, Express.js, RESTful APIs, MySQL, Oracle, MongoDB
@@ -27,7 +30,9 @@ This section ensures recruiters can easily contact me for opportunities.
 - **Purpose**: Lists my proficiency across various domains, ensuring ATS compatibility with keywords like "data structures," "algorithms," and "system design."
 
 ## Professional Experience
+
 ### Software Engineer, ICICI Bank, Hyderabad, India (Nov 2022 - Present)
+
 - **Achievements**:
   - Architected SAML-based SSO and MFA systems with Java and Oracle Access Manager, reducing unauthorized access by 95%.
   - Engineered RESTful APIs for user management automation using Spring Boot, implementing efficient data structures (e.g., hash maps for quick lookups) and algorithms, slashing administrative overhead by 80%.
@@ -36,6 +41,7 @@ This section ensures recruiters can easily contact me for opportunities.
 - **Purpose**: Demonstrates technical expertise and measurable impact, emphasizing data structures and algorithms in API development.
 
 ### Associate Consultant, Abjayon, Ahmedabad, India (Jun 2022 - Sep 2022)
+
 - **Achievements**:
   - Designed SOA-based integrations using Oracle Service Bus, enabling 1M+ daily transactions with zero downtime.
   - Built reusable middleware components with Java, improving system interoperability by 30% through the use of design patterns and efficient algorithm implementation (e.g., sorting algorithms for data processing).
@@ -43,9 +49,11 @@ This section ensures recruiters can easily contact me for opportunities.
 - **Purpose**: Showcases leadership and technical training, highlighting algorithm implementation and system design knowledge.
 
 ## Projects
+
 Each project is detailed below with its use case, tech stack, and implementation details, demonstrating my ability to solve real-world problems and work with relevant technologies.
 
 ### Generative AI Chatbot
+
 - **GitHub Link**: [GenAIChatbot](https://github.com/Gagan-Chaudhary/GenAIChatbot)
 - **Use Case**: Enables conversational interfaces for customer support or personal assistants, enhancing user interaction and automating responses, critical for modern applications.
 - **Tech Stack**: React.js for frontend, Spring Boot for backend, OpenAI API for AI capabilities.
@@ -55,6 +63,7 @@ Each project is detailed below with its use case, tech stack, and implementation
   - Optimized response times with caching mechanisms, handling 5K+ queries/day, demonstrating scalability and performance.
 
 ### Distributed Rate Limiter
+
 - **GitHub Link**: [RateLimiter](https://github.com/Gagan-Chaudhary/RateLimiter)
 - **Use Case**: Prevents API abuse and ensures fair usage, critical for scalable web applications to maintain performance under high traffic.
 - **Tech Stack**: Java, Spring Boot, Redis for distributed storage.
@@ -64,6 +73,7 @@ Each project is detailed below with its use case, tech stack, and implementation
   - Utilized hash maps for efficient request tracking and rate limiting, demonstrating knowledge of data structures for performance optimization.
 
 ### E-Commerce Dashboard
+
 - **GitHub Link**: [EcommDashboard](https://github.com/Gagan-Chaudhary/EcommDashboard)
 - **Use Case**: Provides analytics and management tools for e-commerce platforms, improving business decision-making and operational efficiency.
 - **Tech Stack**: React.js, Node.js, AWS S3 for scalable image storage.
@@ -72,6 +82,7 @@ Each project is detailed below with its use case, tech stack, and implementation
   - Optimized frontend with Bootstrap and CSS3, achieving 20% faster load times, enhancing user experience and performance.
 
 ### Load-Balanced Chat System
+
 - **GitHub Link**: [ChatSystem](https://github.com/Gagan-Chaudhary/ChatSystem)
 - **Use Case**: Facilitates real-time communication for large user bases, like chat applications for businesses, ensuring seamless interaction.
 - **Tech Stack**: C++ for backend, Node.js with WebSocket for real-time communication, Docker for containerization.
@@ -80,6 +91,7 @@ Each project is detailed below with its use case, tech stack, and implementation
   - Secured with OAuth for authentication, deployed on AWS EC2, demonstrating cloud deployment and security expertise.
 
 ### Financial Transaction Processor
+
 - **GitHub Link**: [TransactionProcessor](https://github.com/Gagan-Chaudhary/TransactionProcessor)
 - **Use Case**: Manages high-volume financial transactions securely, essential for banking systems to ensure accuracy and uptime.
 - **Tech Stack**: Java, Oracle for database, Spring Boot for backend.
@@ -88,12 +100,14 @@ Each project is detailed below with its use case, tech stack, and implementation
   - Integrated MFA and SAML for secure access, achieving 99.99% uptime, demonstrating robust security and reliability.
 
 ## Education
+
 - **Degree**: B.Tech in Information Technology, Indian Institute of Information Technology, Vadodara (2018-2022)
 - **Details**: CPI: 7.02/10, Coursework: Data Structures, Algorithms, System Design, Database Management
 - **Achievements**: Google Cloud Program Participant, Hacktoberfest 2020 Contributor, Dean’s List 2020
 - **Purpose**: Adds credibility with relevant coursework and achievements, aligning with technical roles.
 
 ## Skills and Projects to Learn/Focus On
+
 To further enhance your profile, focus on the following areas, given FAANG's emphasis on technical depth and adaptability:
 
 - **Data Structures and Algorithms**: Deepen your knowledge by solving advanced problems on [LeetCode](https://leetcode.com/), focusing on topics like dynamic programming and graph algorithms. Consider courses from [Skills You Must Have For FAANG Companies - GeeksforGeeks](https://www.geeksforgeeks.org/skills-you-must-have-for-faang-companies/) or books like "Introduction to Algorithms" by Cormen.
@@ -108,15 +122,16 @@ To further enhance your profile, focus on the following areas, given FAANG's emp
 
 #### Table: Recommended Learning Resources
 
-| Area                  | Resource Type       | Example Source                                                                 |
-|-----------------------|---------------------|--------------------------------------------------------------------------------|
-| Data Structures/Algorithms | Online Platform    | LeetCode ([LeetCode](https://leetcode.com/))                                   |
-| System Design         | Books/Courses       | "Designing Data-Intensive Applications" by Martin Kleppmann, [Enhancv](https://enhancv.com/blog/faang-resume-examples/) |
-| Cloud Computing       | Certifications      | AWS Certified Solutions Architect ([AWS Training](https://aws.amazon.com/training/)) |
-| Generative AI/ML      | Courses             | TensorFlow Tutorials ([TensorFlow](https://www.tensorflow.org/tutorials))      |
-| Programming Languages | Online Tutorials    | Python for Data Science ([Python.org](https://www.python.org/about/gettingstarted/)) |
+| Area                       | Resource Type    | Example Source                                                                                                          |
+| -------------------------- | ---------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Data Structures/Algorithms | Online Platform  | LeetCode ([LeetCode](https://leetcode.com/))                                                                            |
+| System Design              | Books/Courses    | "Designing Data-Intensive Applications" by Martin Kleppmann, [Enhancv](https://enhancv.com/blog/faang-resume-examples/) |
+| Cloud Computing            | Certifications   | AWS Certified Solutions Architect ([AWS Training](https://aws.amazon.com/training/))                                    |
+| Generative AI/ML           | Courses          | TensorFlow Tutorials ([TensorFlow](https://www.tensorflow.org/tutorials))                                               |
+| Programming Languages      | Online Tutorials | Python for Data Science ([Python.org](https://www.python.org/about/gettingstarted/))                                    |
 
 #### Additional Strategies for Success
+
 Beyond resume optimization, consider the following to increase your chances of landing top roles:
 
 - **Interview Preparation**: Practice coding problems on platforms like Codeforces or CodeChef, as suggested in [Getting Into FAANG as an Aspiring Developer - CV Compiler](https://cvcompiler.com/blog/getting-into-faang-as-an-aspiring-developer/). Focus on system design interviews using resources like [How to get into big tech companies (FAANG+) in 7 steps - IGotAnOffer](https://igotanoffer.com/en/advice/how-to-get-into-big-tech-companies-faang).
@@ -130,5 +145,5 @@ Beyond resume optimization, consider the following to increase your chances of l
 - **Online Profile Optimization**: Ensure GitHub has active, well-documented projects, and LinkedIn reflects your latest skills and endorsements. This aligns with advice from [Resume Review, Mentorship, Mock Interview, etc | FAANGPath](https://faangpath.com/).
 
 #### Unexpected Detail: Generative AI's Growing Relevance
-An unexpected detail is the rapid rise of generative AI as a critical skill, with FAANG companies like Meta and Google heavily investing in it for content creation and customer experience, as per [How Are Companies Implementing Generative AI? - InterviewKickstart](https://interviewkickstart.com/blogs/articles/how-companies-implementing-generative-ai). This could be a differentiator for your resume, especially for roles involving innovation.
 
+An unexpected detail is the rapid rise of generative AI as a critical skill, with FAANG companies like Meta and Google heavily investing in it for content creation and customer experience, as per [How Are Companies Implementing Generative AI? - InterviewKickstart](https://interviewkickstart.com/blogs/articles/how-companies-implementing-generative-ai). This could be a differentiator for your resume, especially for roles involving innovation.
