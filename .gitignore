@@ -7,6 +7,7 @@
 
 # testing
 /coverage
+/build
 
 # production
 # Don't ignore the build directory for gh-pages
